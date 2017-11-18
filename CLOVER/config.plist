@@ -196,6 +196,8 @@
 			<key>NVidia</key>
 			<false/>
 		</dict>
+		<key>VRAM</key>
+		<integer>1536</integer>
 		<key>ig-platform-id</key>
 		<string>0x59120000</string>
 	</dict>
