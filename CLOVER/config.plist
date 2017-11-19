@@ -193,7 +193,7 @@
 			<key>Entries</key>
 			<true/>
 			<key>Legacy</key>
-			<string>First</string>
+			<false/>
 			<key>Tool</key>
 			<true/>
 		</dict>
