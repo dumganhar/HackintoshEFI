@@ -74,7 +74,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>11</string>
+			<integer>11</integer>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -212,38 +212,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>External icons patch</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				RXh0ZXJuYWw=
-				</data>
-				<key>Name</key>
-				<string>AppleAHCIPort</string>
-				<key>Replace</key>
-				<data>
-				SW50ZXJuYWw=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Change 15 port limit to 24 in XHCI kext 10.13</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				g32MEA==
-				</data>
-				<key>Name</key>
-				<string>AppleUSBXHCIPCI</string>
-				<key>Replace</key>
-				<data>
-				g32MGw==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>USB 10.13.4+ by PMHeart</string>
 				<key>Disabled</key>
 				<false/>
@@ -274,17 +242,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>08/08/2017</string>
+		<string>05/02/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM181.88Z.0151.B00.1708080034</string>
+		<string>IM171.88Z.0154.B00.1805021829</string>
 		<key>Board-ID</key>
-		<string>Mac-4B682C642B45593E</string>
+		<string>Mac-B809C3757DA9BB8D</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02752310GUDJWK1H</string>
+		<string>C02533501J9FF4H1M</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -296,9 +264,9 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>Family</key>
-		<string>iMac</string>
+		<string>iMac17,1</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFC0FE136</string>
+		<string>0xFC0FE137</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -310,9 +278,9 @@
 		<key>PlatformFeature</key>
 		<string>0x00</string>
 		<key>ProductName</key>
-		<string>iMac18,1</string>
+		<string>iMac17,1</string>
 		<key>SerialNumber</key>
-		<string>C02VWP4ZH7JY</string>
+		<string>C02Q71INGG7L</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>

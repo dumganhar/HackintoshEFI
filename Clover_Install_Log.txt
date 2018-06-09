@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Wed Feb 21 16:58:18 CST 2018
-Installer version: v2.4k r4411 EFI bootloader
+Clover EFI installer log - Thu Jun  7 22:04:42 CST 2018
+Installer version: v2.4k r4509 EFI bootloader
 ======================================================
 /dev/disk0 (internal):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -12,9 +12,9 @@ Installer version: v2.4k r4411 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +499.9 GB   disk1
                                  Physical Store disk0s2
-   1:                APFS Volume Hackintosh              130.1 GB   disk1s1
-   2:                APFS Volume Preboot                 20.1 MB    disk1s2
-   3:                APFS Volume Recovery                509.8 MB   disk1s3
+   1:                APFS Volume Hackintosh              378.4 GB   disk1s1
+   2:                APFS Volume Preboot                 20.8 MB    disk1s2
+   3:                APFS Volume Recovery                518.1 MB   disk1s3
    4:                APFS Volume VM                      20.5 KB    disk1s4
 
 /dev/disk2 (internal, physical):
@@ -32,10 +32,11 @@ Installer version: v2.4k r4411 EFI bootloader
    1:         Microsoft Reserved                         16.8 MB    disk3s1
    2:       Microsoft Basic Data Win10                   240.0 GB   disk3s2
 
+Target volume /Volumes/Hackintosh on disk1 is APFS on physical store disk0s2
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Hackintosh/EFIROOTDIR/EFI folder to /Volumes/Hackintosh/EFI-Backups/r4334/2018-02-21-16h58/EFI
+Backing up /Volumes/Hackintosh/EFIROOTDIR/EFI folder to /Volumes/Hackintosh/EFI-Backups/r4411/2018-06-07-22h04/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
