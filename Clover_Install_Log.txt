@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Thu Jun  7 22:04:42 CST 2018
-Installer version: v2.4k r4509 EFI bootloader
+Clover EFI installer log - Mon Oct  1 22:32:57 CST 2018
+Installer version: v2.4k r4674 EFI bootloader
 ======================================================
 /dev/disk0 (internal):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -12,7 +12,7 @@ Installer version: v2.4k r4509 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +499.9 GB   disk1
                                  Physical Store disk0s2
-   1:                APFS Volume Hackintosh              378.4 GB   disk1s1
+   1:                APFS Volume Hackintosh              322.6 GB   disk1s1
    2:                APFS Volume Preboot                 20.8 MB    disk1s2
    3:                APFS Volume Recovery                518.1 MB   disk1s3
    4:                APFS Volume VM                      20.5 KB    disk1s4
@@ -32,11 +32,23 @@ Installer version: v2.4k r4509 EFI bootloader
    1:         Microsoft Reserved                         16.8 MB    disk3s1
    2:       Microsoft Basic Data Win10                   240.0 GB   disk3s2
 
+/dev/disk4 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +7.5 GB     disk4
+   1:                        EFI EFI                     209.7 MB   disk4s1
+   2:                  Apple_HFS InstallESD              7.2 GB     disk4s2
+
+/dev/disk6 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *15.4 GB    disk6
+   1:                        EFI EFI                     209.7 MB   disk6s1
+   2:                  Apple_HFS Install macOS High S... 15.0 GB    disk6s2
+
 Target volume /Volumes/Hackintosh on disk1 is APFS on physical store disk0s2
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Hackintosh/EFIROOTDIR/EFI folder to /Volumes/Hackintosh/EFI-Backups/r4411/2018-06-07-22h04/EFI
+Backing up /Volumes/Hackintosh/EFIROOTDIR/EFI folder to /Volumes/Hackintosh/EFI-Backups/r4509/2018-10-01-22h32/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
