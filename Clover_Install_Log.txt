@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Wed Feb 13 18:33:23 CST 2019
-Installer version: v2.4k r4871 EFI bootloader
+Clover EFI installer log - Thu Mar 28 12:08:42 CST 2019
+Installer version: v2.4k r4910 EFI bootloader
 ======================================================
 /dev/disk0 (internal):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -12,7 +12,7 @@ Installer version: v2.4k r4871 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +499.9 GB   disk1
                                  Physical Store disk0s2
-   1:                APFS Volume Hackintosh              357.3 GB   disk1s1
+   1:                APFS Volume Hackintosh              337.6 GB   disk1s1
    2:                APFS Volume Preboot                 43.9 MB    disk1s2
    3:                APFS Volume Recovery                517.0 MB   disk1s3
    4:                APFS Volume VM                      20.5 KB    disk1s4
@@ -37,13 +37,14 @@ Installer version: v2.4k r4871 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      GUID_partition_scheme                        *2.0 TB     disk4
    1:                        EFI EFI                     209.7 MB   disk4s1
-   2:                  Apple_HFS MacDisk-2T              2.0 TB     disk4s2
+   2:                  Apple_HFS MacDisk-2T              1.5 TB     disk4s2
+   3:                  Apple_HFS MacDiskCaseSensitive    499.9 GB   disk4s3
 
 Target volume /Volumes/Hackintosh on disk1 is APFS on physical store disk0s2
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Hackintosh/EFIROOTDIR/EFI folder to /Volumes/Hackintosh/EFI-Backups/r4813/2019-02-13-18h33/EFI
+Backing up /Volumes/Hackintosh/EFIROOTDIR/EFI folder to /Volumes/Hackintosh/EFI-Backups/r4871/2019-03-28-12h08/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
