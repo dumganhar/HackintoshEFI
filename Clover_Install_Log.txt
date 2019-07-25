@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Thu Mar 28 12:08:42 CST 2019
-Installer version: v2.4k r4910 EFI bootloader
+Clover EFI installer log - Thu Jul 25 06:53:12 CST 2019
+Installer version: v2.5k r5018 EFI bootloader
 ======================================================
 /dev/disk0 (internal):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -12,9 +12,9 @@ Installer version: v2.4k r4910 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +499.9 GB   disk1
                                  Physical Store disk0s2
-   1:                APFS Volume Hackintosh              337.6 GB   disk1s1
-   2:                APFS Volume Preboot                 43.9 MB    disk1s2
-   3:                APFS Volume Recovery                517.0 MB   disk1s3
+   1:                APFS Volume Hackintosh              355.5 GB   disk1s1
+   2:                APFS Volume Preboot                 45.0 MB    disk1s2
+   3:                APFS Volume Recovery                510.3 MB   disk1s3
    4:                APFS Volume VM                      20.5 KB    disk1s4
 
 /dev/disk2 (internal, physical):
@@ -40,11 +40,17 @@ Installer version: v2.4k r4910 EFI bootloader
    2:                  Apple_HFS MacDisk-2T              1.5 TB     disk4s2
    3:                  Apple_HFS MacDiskCaseSensitive    499.9 GB   disk4s3
 
+/dev/disk5 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *15.4 GB    disk5
+   1:       Microsoft Basic Data CCCOMA_X64FRE_ZH-CN_DV9 15.4 GB    disk5s1
+   2:       Microsoft Basic Data UEFI_NTFS               524.3 KB   disk5s2
+
 Target volume /Volumes/Hackintosh on disk1 is APFS on physical store disk0s2
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Hackintosh/EFIROOTDIR/EFI folder to /Volumes/Hackintosh/EFI-Backups/r4871/2019-03-28-12h08/EFI
+Backing up /Volumes/Hackintosh/EFIROOTDIR/EFI folder to /Volumes/Hackintosh/EFI-Backups/r4920/2019-07-25-06h53/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
