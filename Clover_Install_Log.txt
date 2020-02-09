@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Sun Nov  3 09:59:38 CST 2019
-Installer version: v2.5k r5098 EFI bootloader
+Clover EFI installer log - Sun Feb  9 16:38:19 CST 2020
+Installer version: v2.5k r5103 EFI bootloader
 ======================================================
 /dev/disk0 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -12,11 +12,11 @@ Installer version: v2.5k r5098 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +499.9 GB   disk1
                                  Physical Store disk0s2
-   1:                APFS Volume Hackintosh - Data       359.5 GB   disk1s1
+   1:                APFS Volume Hackintosh - Data       287.7 GB   disk1s1
    2:                APFS Volume Preboot                 81.1 MB    disk1s2
-   3:                APFS Volume Recovery                528.9 MB   disk1s3
+   3:                APFS Volume Recovery                528.5 MB   disk1s3
    4:                APFS Volume VM                      1.1 MB     disk1s4
-   5:                APFS Volume Hackintosh              10.7 GB    disk1s5
+   5:                APFS Volume Hackintosh              11.1 GB    disk1s5
 
 /dev/disk2 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -27,25 +27,25 @@ Installer version: v2.5k r5098 EFI bootloader
 
 /dev/disk3 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *3.0 TB     disk3
-   1:       Microsoft Basic Data Win-Software            107.4 GB   disk3s1
-   2:       Microsoft Basic Data exFAT-Disk              536.9 GB   disk3s2
-   3:       Microsoft Basic Data NTFS-Disk               1.1 TB     disk3s3
-   4:                        EFI SYSTEM                  314.6 MB   disk3s4
-   5:                  Apple_HFS MacDisk-1T              1.3 TB     disk3s5
+   0:      GUID_partition_scheme                        *2.0 TB     disk3
+   1:                        EFI EFI                     209.7 MB   disk3s1
+   2:                  Apple_HFS MacDisk-2T              1.5 TB     disk3s2
+   3:                  Apple_HFS MacDiskCaseSensitive    499.9 GB   disk3s3
 
 /dev/disk4 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *2.0 TB     disk4
-   1:                        EFI EFI                     209.7 MB   disk4s1
-   2:                  Apple_HFS MacDisk-2T              1.5 TB     disk4s2
-   3:                  Apple_HFS MacDiskCaseSensitive    499.9 GB   disk4s3
+   0:      GUID_partition_scheme                        *3.0 TB     disk4
+   1:       Microsoft Basic Data Win-Software            107.4 GB   disk4s1
+   2:       Microsoft Basic Data exFAT-Disk              536.9 GB   disk4s2
+   3:       Microsoft Basic Data NTFS-Disk               1.1 TB     disk4s3
+   4:                        EFI SYSTEM                  314.6 MB   disk4s4
+   5:                  Apple_HFS MacDisk-1T              1.3 TB     disk4s5
 
 Target volume /Volumes/Hackintosh on disk1 is APFS on physical store disk0s2
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Hackintosh/EFIROOTDIR/EFI folder to /Volumes/Hackintosh/EFI-Backups/r5070/2019-11-03-09h59/EFI
+Backing up /Volumes/Hackintosh/EFIROOTDIR/EFI folder to /Volumes/Hackintosh/EFI-Backups/r5098/2020-02-09-16h38/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
